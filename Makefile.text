@@ -1,0 +1,7 @@
+main:
+	rm -rf *.o main
+	g++ stock.cpp main.cpp -o main -std=c++11 -g -Wall
+
+clean:
+	rm -rf *.o main
+  
